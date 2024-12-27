@@ -604,10 +604,9 @@ p {
 
 /* Footer Styling */
 .footer {
-  background-color: #230575;; /* Dark background for the footer */
-  color: #ecf0f1; /* Light text color */
-  padding: 40px 0; /* Top and bottom padding */
-  font-family: Arial, sans-serif;
+  background-color: #230575;; 
+  color: #ecf0f1; 
+  padding: 40px 0;
 }
 
 .footer-container {
