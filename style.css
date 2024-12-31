@@ -92,16 +92,16 @@ body {
     }
 
     .navbar ul li a {
-      transition: color 0.3s ease; /* Add transition only for hover effect */
+      transition: color 0.3s ease; 
     }
 
   }
 
-  /*Home page*/
+ 
   
 
   /* Full-page container */
-  /* General Home Section Styles */
+ 
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -172,7 +172,7 @@ body {
 
 /* Responsive adjustments */
 
-/* For Tablet devices */
+
 @media (max-width: 768px) {
   .home {
       flex-direction: column;
@@ -198,7 +198,7 @@ body {
   .home-content .cta-button {
       font-size: 0.9rem;
       padding: 8px 15px;
-      margin-left: 0; /* Removed margin-left to center the button */
+      margin-left: 0; 
   }
 
   .home-image {
@@ -613,14 +613,14 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap; /* Ensures the footer is responsive */
+  flex-wrap: wrap; 
   max-width: 1200px;
-  margin: 0 auto; /* Centers the content */
+  margin: 0 auto; 
 }
 
 .footer-links, .footer-contact, .footer-social {
-  width: 23%; /* Makes each section take 23% of the container width */
-  margin-bottom: 20px; /* Spacing between sections */
+  width: 23%;
+  margin-bottom: 20px; 
 }
 
  h3, .footer-links h3,  .footer-social h3 {
@@ -633,18 +633,18 @@ p {
 
 }
  .footer-contact p, .footer-links ul, .footer-social a {
-  color: #bdc3c7; /* Lighter text color */
+  color: #bdc3c7;
   font-size: 14px;
   line-height: 1.6;
 }
 
 .footer-links ul {
-  list-style: none; /* Removes default list styling */
+  list-style: none; 
   padding: 0;
 }
 
 .footer-links ul li {
-  margin-bottom: 10px; /* Spacing between list items */
+  margin-bottom: 10px; 
 }
 
 .footer-links a {
@@ -654,7 +654,7 @@ p {
 }
 
 .footer-links a:hover {
-  color: #ecf0f1; /* Hover effect on links */
+  color: #ecf0f1;
 }
 
 .footer-contact a {
@@ -674,15 +674,14 @@ p {
 }
 
 .footer-social a:hover {
-  color: #3498db; /* Change color on hover */
+  color: #3498db;
 }
 
 /* Footer Bottom Styling */
 .footer-bottom {
   text-align: center;
   padding: 20px 0;
-  background-color: #34495e; /* Slightly darker background */
-}
+  background-color: #34495e; 
 
 .footer-bottom p {
   color: #bdc3c7;
