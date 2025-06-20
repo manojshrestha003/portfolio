@@ -278,16 +278,21 @@
     </div>
 
     <!-- Contact Form Card -->
-    <div class="contact-card form-card">
-      <h3>Send a Message</h3>
-      <form action="#" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <input type="tel" name="phone" placeholder="Your Phone" required>
-        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+<div class="contact-card form-card">
+  <h3>Send a Message</h3>
+  <form id="contactForm" action="https://formspree.io/f/mdkzlzay" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="tel" name="phone" placeholder="Your Phone" required>
+    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+
+    
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit">Send Message</button>
+  </form>
+  <div id="formStatus" style="margin-top: 12px; font-weight: bold;"></div>
+</div>
   </div>
 </section>
     <!-- Footer Section -->
